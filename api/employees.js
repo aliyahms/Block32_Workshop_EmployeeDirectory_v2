@@ -5,6 +5,9 @@ const router = express.Router();
 // Export employees router
 module.exports = router;
 
+// Unique Id generator import
+const {v4: uuidv4} = require('uuid');
+
 // Emplolyees database
 const employees = require("../data/employees");
 
